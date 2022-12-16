@@ -4,7 +4,7 @@
  * main - prints text
  * Return: Always (scuccess)
  */
-int main (void)
+int main(void)
 
 {
 	char cha;
