@@ -11,12 +11,12 @@ int main(void)
 
 	while (countNm < 1024)
 	{
-		if (counNm % 3 == 0 || countNm % 5 == 0)
+		if ((counNm % 3) == 0 || (countNm % 5) == 0)
 		{
 			sum += countNm;
 		}
 		countNm++;
 	}
-	printf("%i\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
