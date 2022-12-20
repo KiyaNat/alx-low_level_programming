@@ -6,16 +6,16 @@
 int main(void)
 
 {
-	int countNm = 0;
+	int c = 0;
 	int sum = 0;
 
-	while (countNm < 1024)
+	while (c < 1024)
 	{
-		if ((counNm % 3) == 0 || (countNm % 5) == 0)
+		if ((c % 3) == 0 || (c % 5) == 0)
 		{
-			sum += countNm;
+			sum += c;
 		}
-		countNm++;
+		c++;
 	}
 	printf("%d\n", sum);
 	return (0);
