@@ -6,8 +6,8 @@
 int main(void)
 
 {
-	int c;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	long int c;
+	long int fib1 = 0, fib2 = 1, sum;
 
 	for (c = 0; c < 50; c++)
 	{
