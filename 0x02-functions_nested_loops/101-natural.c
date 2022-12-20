@@ -6,19 +6,17 @@
 int main(void)
 
 {
-	int countNm;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	int countNm = 0;
+	int sum = 0;
 
-	for (countNm = 0; countNm < 50; countNm++)
+	while (countNm < 1024)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
-		fib1 = fib2;
-		fib2 = sum;
-		if (countNm == 49)
-			printf("\n");
-		else
-			printf(",");
+		if (counNm % 3 == 0 || countNm % 5 == 0)
+		{
+			sum += countNm;
+		}
+		countNm++;
 	}
+	printf("%i\n", sum);
 	return (0);
 }
