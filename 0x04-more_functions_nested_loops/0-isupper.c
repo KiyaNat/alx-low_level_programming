@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isupper - chck if a letter is upper
+ * @c: to reture intger value
  * Return: 1 otherwise 0
  */
 int _isupper(int c)
